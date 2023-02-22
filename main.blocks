@@ -1,0 +1,79 @@
+<xml xmlns="https://developers.google.com/blockly/xml"><block type="device_pin_event" id="(dkY$#h1DP+X)sy@b:Oc" x="-489" y="-42"><field name="name">TouchPin.P1</field><statement name="HANDLER"><block type="device_show_leds" id="y}i6Dh2=V5~:M*|2q%bo"><field name="LEDS">`
+        . . . . . 
+        . . . # # 
+        # # # # # 
+        # # # # # 
+        . # . # .
+        `</field><next><block type="device_show_leds" id="%OC:S}i1HFSz-_Pcpyv_"><field name="LEDS">`
+        . . . . . 
+        . . # # . 
+        # # # # . 
+        # # # # # 
+        # . # . .
+        `</field><next><block type="device_show_leds" id="(G$6(?r`$on*@_qK|tjP"><field name="LEDS">`
+        . . . . . 
+        . # # . # 
+        # # # . # 
+        # # # # # 
+        . # . . .
+        `</field><next><block type="device_show_leds" id="I5#:}9DqR78v0;XP*(XX"><field name="LEDS">`
+        . . . . . 
+        # # . # # 
+        # # . # # 
+        # # # # # 
+        # . . . #
+        `</field><next><block type="device_show_leds" id="z]Wv3SFU+DI48G;K_:iH"><field name="LEDS">`
+        . . . . . 
+        # . # # # 
+        # . # # # 
+        # # # # # 
+        . . . # .
+        `</field><next><block type="device_show_leds" id="7o*~.+I?QEw=nim@iJKc"><field name="LEDS">`
+        . . . . . 
+        . # # # # 
+        . # # # # 
+        # # # # # 
+        . . # . #
+        `</field><next><block type="device_show_leds" id="IlaVPP-mM!x~=UAyvyCj"><field name="LEDS">`
+        . . . . . 
+        # # # # # 
+        # # # # # 
+        # # # # # 
+        . # . # .
+        `</field><next><block type="controls_repeat_ext" id="Jt5ZE2U=;:Nt8`R:)NIb"><value name="TIMES"><shadow type="math_whole_number" id="s3s|wElhQ+e)JAndrm;n"><field name="NUM">5</field></shadow></value><statement name="DO"><block type="device_show_leds" id="@|$Ycux+Tg0[nI!9^d8G"><field name="LEDS">`
+        . . . . . 
+        # # # # . 
+        # # # # . 
+        # # # # # 
+        # . # . .
+        `</field><next><block type="device_show_leds" id="m;H?`v;8.3E[l]qMN$+T"><field name="LEDS">`
+        . . . . . 
+        # # # . # 
+        # # # . # 
+        # # # # # 
+        . # . . .
+        `</field><next><block type="device_show_leds" id="ieMyM@p6Oxp!BUe+KiAM"><field name="LEDS">`
+        . . . . . 
+        # # . # # 
+        # # . # # 
+        # # # # # 
+        # . . . #
+        `</field><next><block type="device_show_leds" id="@:/P}jZP%b])9~#Z8MA["><field name="LEDS">`
+        . . . . . 
+        # . # # # 
+        # . # # # 
+        # # # # # 
+        . . . # .
+        `</field><next><block type="device_show_leds" id="3}yZGVl~*P:JRfGsV#)6"><field name="LEDS">`
+        . . . . . 
+        . # # # # 
+        . # # # # 
+        # # # # # 
+        . . # . #
+        `</field></block></next></block></next></block></next></block></next></block></statement></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></statement></block><block type="device_button_event" id="JVAa+vIG]Y~`Lf_j!t_1" x="0" y="0"><field name="NAME">Button.A</field><statement name="HANDLER"><block type="controls_repeat_ext" id="]Qd:n^;yy{$V-dPU,l4z"><value name="TIMES"><shadow type="math_whole_number" id="[@`*BWIcV~_Kb;)]P8p1"><field name="NUM">5</field></shadow></value><statement name="DO"><block type="device_show_leds" id="{E9?;3auqX]XMjXhHbJ("><field name="LEDS">`
+        # . . . # 
+        . # . # . 
+        . . # . . 
+        . # . # . 
+        # . . . #
+        `</field><next><block type="device_clear_display" id="p/,jY^a(18C~H.#jJ3Wz"><next><block type="device_pause" id="wbrHq$l~-v:2j]pU/$kt"><value name="pause"><shadow type="timePicker" id="PoA$gNAOZ_:J6WBh}9GV"><field name="ms">100</field></shadow></value></block></next></block></next></block></statement></block></statement></block><block type="device_button_event" id="q_)SbF1J{W}fZDMXVRT$" x="279" y="6"><field name="NAME">Button.B</field><statement name="HANDLER"><block type="controls_repeat_ext" id="fe|VX1Fh1~Teru44j~Y#"><value name="TIMES"><shadow type="math_whole_number" id="tu~*;ac_~vQZd25tp2hB"><field name="NUM">5</field></shadow></value><statement name="DO"><block type="basic_show_icon" id="s.N,DRJNanLA|U?}EGpa"><field name="i">IconNames.Square</field><next><block type="device_clear_display" id="D_5fXNuCy(GdiZav,ht#"><next><block type="device_pause" id="2/e3Z9gExb}W|@%{Z;6j"><value name="pause"><shadow type="timePicker" id="`w4bCKCDx{RRZ%Af8]LV"><field name="ms">100</field></shadow></value></block></next></block></next></block></statement></block></statement></block><block type="device_button_event" id="X?[uHSR..peYoVfhXbFR" x="538" y="-6"><field name="NAME">Button.AB</field><statement name="HANDLER"><block type="device_print_message" id="Qe}py%X?T/H/(X?pOhJ/"><value name="text"><shadow type="text" id="fVfDXuS`$cHfkZ=Q(q?K"><field name="TEXT">ALL ABOARD!</field></shadow></value></block></statement></block><block type="device_pin_event" id="Vk!%2/ogLv@=cVS+x?uQ" x="555" y="130"><field name="name">TouchPin.P0</field><statement name="HANDLER"><block type="device_print_message" id="]5BVRN:/~/0{aaXRWe*}"><value name="text"><shadow type="text" id="Qre]8X%tE7oEP{AVj2Il"><field name="TEXT">CHoo CHoo</field></shadow></value></block></statement></block><block type="device_gesture_event" id="W**p|sOQd|,,{fuOE3d(" x="570" y="260"><field name="NAME">Gesture.Shake</field><statement name="HANDLER"><block type="device_print_message" id="XJ)kbU^K1#kh12jy2swz"><value name="text"><shadow type="text" id=",hiEvcz;EDR:c2k3T4C("><field name="TEXT">SPEED</field></shadow></value><next><block type="device_show_number" id=";_W%ijI0`CK1M!N]0PI$"><value name="number"><shadow type="math_number"><field name="NUM">0</field></shadow><block type="device_random" id="9A)*!l1p#q*L;=hCqA0S"><value name="min"><shadow type="math_number" id="7wK*0b%+^?yo[pWwvju2"><field name="NUM">30</field></shadow></value><value name="limit"><shadow type="math_number" id="Sfs4aTMu_%]rD5|xc~lF"><field name="NUM">60</field></shadow></value></block></value></block></next></block></statement></block></xml>
